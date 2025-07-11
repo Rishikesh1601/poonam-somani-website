@@ -281,8 +281,13 @@
         });
 
         // Fetch JSON data and populate the page
-        fetch('business_poonam.json')
-            .then(response => response.json())
+        fetch('./business_poonam.json') // Adjusted path for GitHub Pages
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
             .then(data => {
                 // Populate Header
                 document.getElementById('business-name').textContent = data.business_name;
@@ -327,9 +332,11 @@
                 document.getElementById('overall-rating').textContent = data.reviews_and_ratings.overall_rating;
                 document.getElementById('total-ratings-testimonials').textContent = data.reviews_and_ratings.total_ratings;
                 const testimonialsContainer = document.getElementById('testimonials-container');
-                data.reviews_and_ratings.user_reviews
-                    .filter(review => review.comment) // Only include reviews with comments
-                    .forEach(review => {
+                const reviewsWithComments = data.reviews_and_ratings.user_reviews.filter(review => review.comment && review.comment.trim().length > 0);
+                if (reviewsWithComments.length === 0) {
+                    testimonialsContainer.innerHTML = '<p class="text-gray-600 text-center">No reviews available.</p>';
+                } else {
+                    reviewsWithComments.forEach(review => {
                         const testimonialCard = document.createElement('div');
                         testimonialCard.className = 'carousel-item';
                         testimonialCard.innerHTML = `
@@ -346,6 +353,7 @@
                         `;
                         testimonialsContainer.appendChild(testimonialCard);
                     });
+                }
 
                 // Populate Review Highlights
                 const reviewHighlights = document.getElementById('review-highlights');
@@ -374,26 +382,38 @@
                 let currentIndex = 0;
 
                 function updateCarousel() {
-                    carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
+                    if (carouselItems.length > 0) {
+                        carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
+                    }
                 }
 
                 prevButton.addEventListener('click', () => {
-                    currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
-                    updateCarousel();
+                    if (carouselItems.length > 0) {
+                        currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
+                        updateCarousel();
+                    }
                 });
 
                 nextButton.addEventListener('click', () => {
-                    currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
-                    updateCarousel();
+                    if (carouselItems.length > 0) {
+                        currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
+                        updateCarousel();
+                    }
                 });
 
                 // Auto-slide every 5 seconds
-                setInterval(() => {
-                    currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
-                    updateCarousel();
-                }, 5000);
+                if (carouselItems.length > 0) {
+                    setInterval(() => {
+                        currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
+                        updateCarousel();
+                    }, 5000);
+                }
             })
-            .catch(error => console.error('Error loading JSON:', error));
+            .catch(error => {
+                console.error('Error loading or parsing JSON:', error);
+                const testimonialsContainer = document.getElementById('testimonials-container');
+                testimonialsContainer.innerHTML = '<p class="text-gray-600 text-center">Failed to load reviews. Check console for details.</p>';
+            });
     </script>
 </body>
 </html>
