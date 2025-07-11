@@ -1,0 +1,407 @@
+{
+  "business_name": "Poonam A Somani & Associates",
+  "category": "CA, GST Registration Consultants",
+  "rating": "4.8",
+  "total_ratings": 55,
+  "claimed": true,
+  "address": {
+    "street": "Lotus Court, Old Kharadi Mundhwa Road",
+    "area": "Kharadi",
+    "city": "Pune",
+    "pincode": "411014"
+  },
+  "opening_hours_tomorrow": "9:00 am",
+  "years_in_business": 5,
+  "contact_number": "08401349470",
+  "response_time": "Responds in 4 Hours",
+  "quick_info": {
+    "year_of_establishment": 2020,
+    "services_summary": "Accounting, GST Return+3"
+  },
+  "services_offered": [
+    {
+      "name": "GST Registration Consultants",
+      "description": "GST Registration Consultants provide expert guidance and support to businesses seeking to register under the Goods and Services Tax (GST) regime. They assist in navigating the complex documentation process, ensuring compliance with legal requirements, and optimizing tax benefits. With in-depth knowledge of GST laws, these consultants help clients understand their tax obligations, file necessary returns, and manage input tax credits effectively. Their services are essential for businesses of all sizes aiming to streamline their operations and enhance financial transparency while adhering to regulatory standards.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Internal Auditors",
+      "description": "Internal auditors play a crucial role in assessing and enhancing an organization's internal controls, risk management, and governance processes. They provide independent evaluations of financial and operational systems, ensuring compliance with laws and regulations. By identifying inefficiencies and potential risks, internal auditors help organizations improve their operational effectiveness and achieve their objectives. Their insights contribute to strategic decision-making and foster a culture of accountability and transparency within the organization.",
+      "icon": "shield-check"
+    },
+    {
+      "name": "Auditors",
+      "description": "Auditors play a critical role in ensuring the accuracy and integrity of financial statements and records. They conduct thorough examinations of a company's financial documents, assessing compliance with relevant laws and regulations. By identifying discrepancies and potential areas of risk, auditors provide valuable insights that can help businesses improve their financial processes and operations. Their independent evaluation enhances stakeholder confidence, making auditors essential for effective governance and transparency in any organization.",
+      "icon": "check-circle"
+    }
+  ],
+  "reviews_and_ratings": {
+    "overall_rating": 4.8,
+    "total_ratings": 55,
+    "rating_index_based_on": "55 ratings across the web",
+    "review_highlights": [
+      {"highlight": "Good experience", "count": 19},
+      {"highlight": "Proper explanation", "count": 17},
+      {"highlight": "Reasonable fees", "count": 11},
+      {"highlight": "Easily accessible", "count": 10},
+      {"highlight": "Knowledgeable staff", "count": 8},
+      {"highlight": "Experienced provider", "count": 7},
+      {"highlight": "Realistic approach", "count": 5},
+      {"highlight": "Exceptional team", "count": 3}
+    ],
+    "user_reviews": [
+      {
+        "reviewer_name": "AKSHEY KUNDE",
+        "num_reviews": 2,
+        "date": "03 Jul 2024",
+        "highlights": ["Knowledgeable staff", "Minimum formalities", "Good experience", "Proper explanation", "Reasonable fees"],
+        "comment": "It was really nice connecting with this firm and loved the extensive support all the time whenever needed. There were very good investment suggestions and tax saving tips from the team."
+      },
+      {
+        "reviewer_name": "Shubham Rajole",
+        "num_reviews": 1,
+        "date": "26 Jun 2024",
+        "highlights": ["Exceptional team", "Good experience", "Proper explanation", "Easily accessible"],
+        "comment": "I had a great experience with Poonam A Somani & Associates, a Banking, Finance and other Services-Agents. The team was exceptional and provided proper explanations for all my queries. They were easily accessible and made the process smooth."
+      },
+      {
+        "reviewer_name": "PRIYANKA",
+        "num_reviews": 2,
+        "date": "25 Jun 2024",
+        "highlights": ["Realistic approach", "Good experience", "Proper explanation"],
+        "comment": "I had an excellent experience with Poonam A Somani & Associates. They provided proper explanation and took a realistic approach towards my financial needs. Highly recommended!"
+      },
+      {
+        "reviewer_name": "Abhijeet",
+        "num_reviews": 3,
+        "date": "18 Jun",
+        "highlights": [],
+        "comment": "Very prompt and helpful for all financial work. Highly satisfactory query resolution and ensures adequate time given to customers for anything and everything."
+      },
+      {
+        "reviewer_name": "Mukesh",
+        "num_reviews": 1,
+        "date": "29 Jul 2024",
+        "highlights": [],
+        "comment": "It was excellent experience excellent knowledge,very co- perative, flexible and has solutions for everything with easily accessible"
+      },
+      {
+        "reviewer_name": "Amit",
+        "num_reviews": 4,
+        "date": "06 Jul",
+        "highlights": ["Experienced provider", "Knowledgeable staff", "Good experience", "Proper explanation", "Reasonable fees", "No monthly service fee", "Easily accessible"],
+        "comment": "Proper experience and easily accessible very helpful and easy to understand"
+      },
+      {
+        "reviewer_name": "PUNEETH",
+        "num_reviews": 2,
+        "date": "28 Jul 2024",
+        "highlights": ["Exceptional team", "Good experience", "Proper explanation", "Easily accessible"],
+        "comment": "Excellent service. Provided answers to all the questions."
+      },
+      {
+        "reviewer_name": "ADITYA JAIN",
+        "num_reviews": 1,
+        "num_followers": 68,
+        "date": "26 Jun 2024",
+        "highlights": ["Realistic approach", "Knowledgeable staff", "Good experience", "Proper explanation", "Reasonable fees"],
+        "comment": "It is the best firm with realistic approach and good explanation."
+      },
+      {
+        "reviewer_name": "Gaurav Khiwasara",
+        "num_reviews": 1,
+        "date": "25 Jun 2024",
+        "highlights": ["Experienced provider", "Realistic approach", "Good experience", "Proper explanation", "Reasonable fees", "Easily accessible"],
+        "comment": "Highly Qualified & well Experienced."
+      },
+      {
+        "reviewer_name": "Neha",
+        "num_reviews": 1,
+        "date": "25 Jun 2024",
+        "highlights": ["Experienced provider", "Hassle-free experience", "Good experience", "Proper explanation", "Easily accessible"],
+        "comment": "They provide me best service."
+      },
+      {
+        "reviewer_name": "Pradeep Kumar",
+        "num_reviews": 9955,
+        "date": "09 Apr 2024",
+        "highlights": [],
+        "comment": "Good Service"
+      },
+      {
+        "reviewer_name": "Pravinkumar Jaju",
+        "num_reviews": 10,
+        "date": "27 Jun 2024",
+        "highlights": ["Good experience", "Proper explanation"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Ranjana",
+        "num_reviews": 1,
+        "date": "26 Jun 2024",
+        "highlights": ["Experienced provider", "Smooth process", "Good experience", "Proper explanation", "Reasonable fees", "Offers competitive interest rates", "Easily accessible"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Amit More",
+        "num_reviews": 1,
+        "date": "26 Jun 2024",
+        "highlights": ["Exceptional team", "Knowledgeable staff", "Good experience", "Proper explanation", "Reasonable fees", "Easily accessible"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "SHIVAM",
+        "num_reviews": 2,
+        "date": "26 Jun 2024",
+        "highlights": ["Experienced provider", "Realistic approach", "Good experience", "Proper explanation", "Reasonable fees", "Easily accessible"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "APPASHIB MUNDASE",
+        "num_reviews": 1,
+        "date": "26 Jun 2024",
+        "highlights": ["Experienced provider", "Knowledgeable staff", "Good experience", "Proper explanation", "Reasonable fees"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "ABHISHEKH",
+        "num_reviews": 1,
+        "date": "25 Jun 2024",
+        "highlights": ["Knowledgeable staff", "Good experience", "Reasonable fees"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "BHALCHANDRA SOMANI",
+        "num_reviews": 1,
+        "date": "25 Jun 2024",
+        "highlights": ["Knowledgeable staff", "Good experience", "Reasonable fees"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "UTTAM GUNJAL",
+        "num_reviews": 2,
+        "date": "25 Jun 2024",
+        "highlights": ["Good experience"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "ABHISHEKH",
+        "num_reviews": 2,
+        "date": "25 Jun 2024",
+        "highlights": ["Knowledgeable staff", "Good experience", "Proper explanation", "Reasonable fees", "Easily accessible"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Abhaya Mhetre Bhujbal",
+        "num_reviews": 2,
+        "date": "24 Jun 2024",
+        "highlights": ["Good experience", "Proper explanation", "Easily accessible"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Reddy",
+        "num_reviews": 2,
+        "date": "24 Jun 2024",
+        "highlights": ["Good experience", "Proper explanation"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Ravee",
+        "num_reviews": 110,
+        "date": "07 Apr 2024",
+        "highlights": ["Experienced provider", "Realistic approach", "Proper explanation"],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "User",
+        "num_reviews": 1,
+        "date": "01 Jul",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Ruchita",
+        "num_reviews": 1,
+        "num_followers": 140,
+        "date": "18 Jun",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "LAURANCE",
+        "num_reviews": 44,
+        "date": "13 Jun",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Sainath",
+        "num_reviews": 17,
+        "date": "03 Jun",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Atul",
+        "num_reviews": 39,
+        "date": "24 Apr",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Usha Bhosale",
+        "num_reviews": 1,
+        "date": "16 Apr",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "RAJESH",
+        "num_reviews": 8,
+        "date": "07 Apr",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Sidesh",
+        "num_reviews": 2,
+        "date": "14 Feb",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Sunil",
+        "num_reviews": 6,
+        "date": "02 Feb",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Dhoka Vijay",
+        "num_reviews": 2,
+        "date": "25 Jan",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Omkar",
+        "num_reviews": 12,
+        "date": "13 Jan",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Makarand Temkar",
+        "num_reviews": 4,
+        "date": "04 Dec 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "ANKUSH",
+        "num_reviews": 31,
+        "date": "28 Nov 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Rudra",
+        "num_reviews": 17,
+        "date": "22 Oct 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Mukesh Srivastava",
+        "num_reviews": 22,
+        "date": "08 Aug 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "User",
+        "num_reviews": 1,
+        "date": "31 Jul 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Anil Rathod",
+        "num_reviews": 2,
+        "date": "29 Jul 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Pravin Nalawade",
+        "num_reviews": 3,
+        "date": "25 Jul 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Deepnarayan Gupta",
+        "num_reviews": 13,
+        "date": "09 Jul 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "User",
+        "num_reviews": 1,
+        "date": "27 Jun 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "SANTOSH SARDA",
+        "num_reviews": 1,
+        "date": "26 Jun 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "User",
+        "num_reviews": 1,
+        "date": "26 Jun 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "User",
+        "num_reviews": 1,
+        "date": "26 Jun 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Poonawala Construction N Cleaning Services Pvt Ltd",
+        "num_reviews": 7,
+        "date": "26 Jun 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "CHANDRAKANT",
+        "num_reviews": 2,
+        "date": "25 Jun 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Venkatesh",
+        "num_reviews": 2,
+        "date": "24 Jun 2024",
+        "highlights": [],
+        "comment": ""
+      },
+      {
+        "reviewer_name": "Praveen Madar",
+        "num_reviews": 1,
+        "date": "24 Jun 2024",
+        "highlights": [],
+        "comment": ""
+      }
+    ]
+  }
+}
