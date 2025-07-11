@@ -5,45 +5,111 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Poonam A Somani & Associates</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet">
   <style>
-    body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; }
-    .card { border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .highlight-tag { background: #F9A407; color: white; border-radius: 20px; padding: 4px 12px; margin: 4px; display: inline-block; }
-    .swiper { padding: 20px; }
+    body {
+      background: linear-gradient(120deg, #f0f4ff, #e6f0f5);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .card {
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    .business-card {
+      max-width: 400px;
+      margin: auto;
+      text-align: center;
+      padding: 2rem;
+      border-radius: 30px;
+      background: white;
+      position: relative;
+      overflow: hidden;
+    }
+    .business-card .logo {
+      height: 80px;
+      margin-bottom: 1rem;
+    }
+    .business-card .profile {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin-top: -60px;
+    }
+    .card-section {
+      background: white;
+      border-radius: 20px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .highlight-tag {
+      background: #0077cc;
+      color: white;
+      border-radius: 20px;
+      padding: 6px 14px;
+      margin: 4px;
+      display: inline-block;
+      font-size: 0.85rem;
+    }
+    .swiper {
+      padding: 20px 0;
+    }
+    .swiper-slide {
+      background: white;
+      border-radius: 20px;
+      padding: 1rem;
+      height: auto;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    }
+    .btn-custom {
+      border-radius: 30px;
+      padding: 10px 20px;
+      margin: 0.5rem 0;
+    }
   </style>
 </head>
 <body>
-  <div class="container py-4">
-    <div class="text-center mb-4">
-      <h1 id="businessName">Loading...</h1>
+  <div class="container py-5">
+    <div class="business-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" class="logo" alt="Business Logo">
+      <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="profile" class="profile">
+      <h3 id="businessName">Loading...</h3>
       <p id="category" class="text-muted"></p>
-      <span class="badge bg-success" id="rating"></span>
+      <div class="badge bg-success mb-3" id="rating"></div>
+      <div class="d-grid gap-2 mt-3">
+        <button class="btn btn-outline-primary btn-custom"><i class="bi bi-envelope"></i> Email</button>
+        <button class="btn btn-outline-primary btn-custom"><i class="bi bi-telephone"></i> Call</button>
+        <button class="btn btn-outline-primary btn-custom"><i class="bi bi-globe"></i> Website</button>
+      </div>
     </div>
 
-    <div class="row g-4">
+    <div class="row mt-5">
       <div class="col-md-6">
-        <div class="card p-3">
+        <div class="card-section">
           <h5>Contact & Location</h5>
           <p id="address"></p>
-          <p><strong>Contact:</strong> <span id="contactNumber"></span></p>
-          <p><strong>Opening Tomorrow:</strong> <span id="openingHours"></span></p>
+          <p><strong>Phone:</strong> <span id="contactNumber"></span></p>
+          <p><strong>Opening:</strong> <span id="openingHours"></span></p>
           <p><strong>Years in Business:</strong> <span id="yearsInBusiness"></span></p>
           <p><strong>Response Time:</strong> <span id="responseTime"></span></p>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="card p-3">
-          <h5>Services Offered</h5>
+        <div class="card-section">
+          <h5>Services</h5>
           <div id="servicesList"></div>
         </div>
       </div>
     </div>
 
-    <div class="my-5">
-      <h3>Review Highlights</h3>
-      <div id="reviewHighlights" class="mb-3"></div>
-      <div class="swiper mySwiper">
+    <div class="card-section">
+      <h5 class="mb-3">Review Highlights</h5>
+      <div id="reviewHighlights"></div>
+      <div class="swiper mySwiper mt-4">
         <div class="swiper-wrapper" id="reviewsSlider"></div>
         <div class="swiper-pagination"></div>
       </div>
@@ -79,12 +145,10 @@
 
       const reviewsHTML = data.reviews_and_ratings.user_reviews.slice(0, 10).map(review => `
         <div class="swiper-slide">
-          <div class="card p-3">
-            <h6>${review.reviewer_name}</h6>
-            <p class="text-muted small">${review.date}</p>
-            <p>${review.comment || 'No comment provided.'}</p>
-            ${review.highlights && review.highlights.length > 0 ? `<div>${review.highlights.map(tag => `<span class='badge bg-secondary me-1'>${tag}</span>`).join('')}</div>` : ''}
-          </div>
+          <div class="mb-2 fw-bold">${review.reviewer_name}</div>
+          <div class="text-muted small mb-2">${review.date}</div>
+          <div>${review.comment || 'No comment provided.'}</div>
+          ${review.highlights && review.highlights.length > 0 ? `<div class="mt-2">${review.highlights.map(tag => `<span class='badge bg-secondary me-1'>${tag}</span>`).join('')}</div>` : ''}
         </div>
       `).join('');
       document.getElementById('reviewsSlider').innerHTML = reviewsHTML;
